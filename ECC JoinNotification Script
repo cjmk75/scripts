@@ -1,8 +1,8 @@
 $${
 // Made by: Cjmk75
 // Bind to onPlayerJoined
-IFMATCHES(%JOINEDPLAYER%,"BTLP Slot")
-ELSE
-LOG(&e%JOINEDPLAYER% has joined the game.)
-ENDIF
+ifmatches(%JOINEDPLAYER%,"BTLP Slot");
+else;
+log(&e%JOINEDPLAYER% has joined the game.);
+endif;
 }$$

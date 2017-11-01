@@ -4,6 +4,6 @@ $${
 // Lowest hunger level allowed (out of 20)
 #minfood = 6
 if(%HUNGER% < %#minfood%);
-echo("/feed")
+echo("/feed");
 endif;
 }$$

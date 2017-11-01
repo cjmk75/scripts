@@ -2,19 +2,19 @@ $${
 // Made By: Cjmk75
 // Set time in milla seconds
 #time = 78000
-IF(autowalk);
- UNSET(autowalk);
-  LOG("Autowalk Disabled");
-   KEYUP(forward)|WALK();
- STOP();
-ELSE;
- SET(autowalk);
-  LOG("Autowalk Enabled");
-    KEYDOWN(forward);WALK();
-  WAIT(%#time%ms)
-   KEYUP(forward);
-   ECHO(/repair hand);
- WHILE (autowalk);
-ENDIF
-ENDIF
+if(autowalk);
+ unset(autowalk);
+  log("Autowalk Disabled");
+   keyup(forward)|WALK();
+ stop();
+else;
+ set(autowalk);
+  log("Autowalk Enabled");
+    keydown(forward);WALK();
+  wait(%#time%ms);
+   keyup(forward);
+   echo(/repair hand);
+ while (autowalk);
+endif;
+endif;
 }$$

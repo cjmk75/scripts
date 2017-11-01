@@ -1,0 +1,11 @@
+$${
+// Made by: Cjmk75
+// Not claiming responsibility for any broken tools. (Although it should be impossible to break a tool with this binded properly)
+// Bind to onItemDurabilityChange
+// Lowest durabilty allowed
+#mindur = 50
+if(DURABILITY < #mindur);
+log("&bAutoRepairing all tools!");
+echo("/repair all");
+endif;
+}$$

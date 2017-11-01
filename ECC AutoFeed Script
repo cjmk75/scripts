@@ -1,0 +1,9 @@
+$${
+// Made by: Cjmk75
+// Bind to onFoodChange
+// Lowest hunger level allowed (out of 20)
+#minfood = 6
+if(%HUNGER% < %#minfood%);
+echo("/feed")
+endif;
+}$$

@@ -15,6 +15,6 @@ else;
    keyup(forward);
    echo(/repair hand);
  while (autowalk);
-endif;
+ endif;
 endif;
 }$$

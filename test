@@ -1,0 +1,12 @@
+$${
+do;
+ifmatches(%HITID%,"Melon");
+key(attack);;
+loop;
+else;
+slot(2);
+wait(1ms);
+slot(1); 
+endif;
+until(%HITID%,"Melon");
+}$$

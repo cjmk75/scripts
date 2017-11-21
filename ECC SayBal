@@ -1,0 +1,26 @@
+$${
+//Bind to OnChat and OnSendChatMessage
+
+    IF(%KEYNAME%="onSendChatMessage")
+        IFMATCHES(%CHAT%,"^/saybal (.+)")
+            MATCH(%CHAT%,"^/saybal (.+)",{@&saybalplayer})
+            ECHO("/bal %@&saybalplayer%")
+            SET(@saybal,1)  
+            FILTER
+        ENDIF
+    ELSE
+        IFMATCHES(%@saybal%,1)
+            STRIP(&chat,%CHAT%)
+            IFMATCHES(%&chat%,"^Balance of %@&saybalplayer%")
+                MATCH(%&chat%,"^Balance of %@&saybalplayer%: (.*)",{&balance})
+                ECHO("The balance of %@&saybalplayer% is %&balance%")                
+                SET(@saybal,0)
+            ELSE
+               
+            IFMATCHES(%&chat%,"^Player not found")    
+                SET(@saybal,0)
+            ENDIF
+            ENDIF
+        ENDIF
+    ENDIF
+}$$

@@ -9,9 +9,9 @@ $${
     ELSE
         IFMATCHES(%@timetotp%,1)
             STRIP(&chat,%CHAT%)
-            IFMATCHES(%&chat%,"^Bounds: \((.*),(.*),(.*)\) \->")
-                MATCH(%&chat%,"^Bounds: \((.*),(.*),(.*)\) \->",{&xtpto,&ytpto,&ztpto})
-                ECHO(/tpc %&xtpto% %&ytpto% %&ztpto%)                
+            IFMATCHES(%&chat%,"^Bounds: \((.*),0,(.*)\) \->")
+                MATCH(%&chat%,"^Bounds: \((.*),0,(.*)\) \->",{&xtpto,&ztpto})
+                ECHO(/tpc %&xtpto% %&ytpto%)                
                 SET(@timetotp,0) 
             ELSE
                 

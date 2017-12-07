@@ -11,7 +11,7 @@ $${
             STRIP(&chat,%CHAT%)
             IFMATCHES(%&chat%,"^Bounds: \((.*),0,(.*)\) \->")
                 MATCH(%&chat%,"^Bounds: \((.*),0,(.*)\) \->",{&xtpto,&ztpto})
-                ECHO(/tpc %&xtpto% %&ytpto%)                
+                ECHO(/tpc %&xtpto% %&ztpto%)                
                 SET(@timetotp,0) 
             ELSE
                 

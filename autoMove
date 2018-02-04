@@ -1,4 +1,5 @@
-$${do;   
+$${
+do;   
      if((RMOUSE)&&(GUI=="NONE"));
         if(%ITEM%="air");
             wait(1ms);

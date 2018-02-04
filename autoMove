@@ -1,4 +1,5 @@
 $${
+// Bind to OnJoinGame
 do;   
      if((RMOUSE)&&(GUI=="NONE"));
         if(%ITEM%="air");

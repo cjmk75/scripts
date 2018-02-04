@@ -1,0 +1,10 @@
+$${do;   
+     if((RMOUSE)&&(GUI=="NONE"));
+        if(%ITEM%="air");
+            wait(1ms);
+            pick(%&item%);
+        endif;
+    endif;
+    &item = %ITEMIDDMG%;
+loop;
+}$$

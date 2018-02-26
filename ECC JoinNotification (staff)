@@ -1,0 +1,95 @@
+$${
+// Made by: Cjmk75
+// Bind to onPlayerJoined
+
+ifmatches(%JOINEDPLAYER%,"JamieSinn")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"Imaginex")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"ClarinePheonix")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"314")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"dgam02")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"pokeball92870")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"LanRooks")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"appleprocucling")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"a_man21")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"strongpelt")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"zr2002")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"DrowningInPizza")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"CemCrazy")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"cjmk75")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"Frostystorm1")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"1purplejade")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"Ian__D")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"jbertig")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"xLegend_Killer")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"Kick_Me_1235")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"GeorgiaMC")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"matrix_rep")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"DiamondDesire")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"Quackk")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"LaggyTryHard")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"koko_2022")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"BuildsByGideon")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"7amoodw")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"Bmanvman")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+ifmatches(%JOINEDPLAYER%,"Crossphyre")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
+}$$

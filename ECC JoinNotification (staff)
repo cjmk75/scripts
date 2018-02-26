@@ -2,6 +2,9 @@ $${
 // Made by: Cjmk75
 // Bind to onPlayerJoined
 
+ifmatches(%JOINEDPLAYER%,"andrewkm")
+log(&e%JOINEDPLAYER% has joined the game.)
+endif
 ifmatches(%JOINEDPLAYER%,"JamieSinn")
 log(&e%JOINEDPLAYER% has joined the game.)
 endif
